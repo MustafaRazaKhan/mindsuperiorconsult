@@ -1,0 +1,67 @@
+.servicesContainer {
+  /* padding: 4rem; */
+}
+
+.exclusiveContent {
+  background: linear-gradient(#0b0b0b, #255f5f);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 4rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.exclusiveContentHeading h3 {
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.exclusiveContentPara p {
+  font-size: 2rem;
+}
+.OffshoreRecruiters {
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+  /* padding: 1rem; */
+  margin: 1rem;
+}
+.offShoreContent {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* border:  2px solid black; */
+  flex-wrap: wrap;
+}
+.OffshoreRecruiterscontentHeading h3 {
+  font-size: 3.8rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.OffshoreRecruitersContentpara {
+  /* display: flex; */
+  justify-content: center;
+  /* align-items: center; */
+  /* flex-direction: column; */
+  flex: 1 1 30rem;
+  padding: 10rem 2rem;
+  /* border:  2px solid red; */
+}
+.OffshoreRecruitersContentpara p {
+  font-weight: bold;
+  /* flex: 1 1 auto; */
+  font-size: 1.8rem;
+}
+.OffshoreRecruitersContentLogo {
+  padding: 1rem;
+  text-align: center;
+  /* flex: 1 1 auto; */
+  /* border:  2px solid black; */
+}
+.OffshoreRecruitersContentLogo img {
+  object-fit: contain;
+  text-align: center;
+  width: 40rem;
+  height: 40rem;
+}

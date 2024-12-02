@@ -1,0 +1,49 @@
+#aboutUs{
+    background-color: whitesmoke;
+}
+.aboutUsContainer{
+   
+}
+.rightContent h5{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 800;
+    padding: 1rem;
+}
+.firstContent,.secondContent,.thirdContent{
+display: flex;
+margin: .8rem;
+/* justify-content: center; */
+/* align-items: center; */
+flex-wrap: wrap;
+padding: 1rem 1rem;
+gap:1rem;
+background-color: #fff;
+box-shadow: 0 0  3rem rgba(0, 0, 0, .1);
+/* word-wrap: break-word; */
+}
+.rightContent p{
+    line-height: 3rem;
+    
+    font-size:1.8rem;
+    padding: 0 4rem;
+}
+.rightContent h1{
+    text-align: center;
+    font-size: 7rem;
+    font-weight: 900;
+
+}
+.leftLogo{
+    flex: 1 1 20rem;
+    /* border: 2px solid red; */
+}
+.leftLogo img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+}
+.rightContent{
+    /* border: 2px solid red; */
+    flex: 1 1 90rem;
+}

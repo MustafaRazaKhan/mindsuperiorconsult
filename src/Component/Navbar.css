@@ -1,0 +1,23 @@
+#navbar{
+    background-color: rgba(0,0,0,.8);
+    color: #fff;
+    /* height: 100vh; */
+}
+.navbar-brand img{
+    width: 15rem;
+}
+.nav-item{
+    margin: 0 1.4rem;
+    text-align: center;
+}
+a{
+    color: #fff !important;
+    font-size: 2rem !important;
+    text-transform: uppercase;
+}
+button.navbar-toggler {
+    outline: none !important;
+    border: none !important;
+    color: #fff;
+    background-color: #fff !important;
+}

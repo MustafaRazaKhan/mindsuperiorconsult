@@ -1,0 +1,80 @@
+/* footer css */
+#footer {
+  color: #fff;
+
+  text-align: center;
+  overflow-x: hidden;
+}
+.footerContainer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  /* padding: 2rem; */
+  border: 2px solid green;
+}
+.footerContact {
+  padding: 4rem;
+  flex: 1 1 30rem;
+}
+.footerLinks {
+  flex: 1 1 30rem;
+  padding: 4rem 0rem;
+  background-color: rgb(97, 96, 96);
+}
+
+.iconsParaContent p {
+  font-size: 2rem;
+  text-align: center;
+}
+.footerContactEmail p {
+  font-size: 2rem;
+  text-align: center;
+}
+.icons,
+.footerContactEmail {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 0.2rem;
+}
+.iconsContent .fa {
+  font-size: 2rem;
+}
+.fa {
+  padding: 2rem;
+}
+.footerCommunity p {
+  font-size: 1rem;
+}
+
+#footer .footerLogo img {
+  width: 20rem;
+}
+.footerLinks {
+  /* text-align: center; */
+  color: #fff;
+  font-size: 2rem;
+  /* background-color: whitesmoke; */
+  /* padding: 2rem; */
+}
+.footerLinks ul li {
+  padding: 0.6rem;
+  cursor: pointer;
+}
+.footerCommunity {
+  flex: 1 1 30rem;
+  /* border: 2px solid red; */
+}
+.footerCommunityContent p {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.footerRight p {
+  font-size: 2rem;
+  padding: 1.4rem;
+}

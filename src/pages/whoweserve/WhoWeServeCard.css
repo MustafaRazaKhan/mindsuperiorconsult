@@ -1,0 +1,44 @@
+#whoweserve{
+    background-color: whitesmoke;
+
+}
+#whoweserve h1{
+    font-size: 5rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.serveContainer{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.whoweserveCard{
+    background-color: white;
+    /* padding: 1rem; */
+    box-shadow: 0 0 1rem rgba(0,0,0,.4);
+    flex: 0 1 30rem;
+    margin: .8rem;
+    border-radius: .4rem;
+}
+.cardImg{
+    /* padding: 1rem; */
+    background-color: #fff;
+    text-align: center;
+}
+.cardImg img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.cardContent h2{
+font-size: 2.5rem;
+padding: 1.8rem;
+font-weight: 900;
+text-align: center;
+text-transform: uppercase;
+font-weight: bolder;
+}
